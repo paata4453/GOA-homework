@@ -1,0 +1,65 @@
+<!-- style inheritance არის მემკვიდრეობა რომელიც div-ით ან style-ით გადაეცემა 
+
+-->
+<div style="color: red;">
+  <p>This text will be red.</p>
+  <span>This text will be red.</span>
+</div>
+
+<!--
+
+
+
+თუ გვინდა, რომ თვისება არ გადაეცეს შვილ ელემენტებს, ვიყენებთ inheritance
+inherit აიძულებს მემკვიდრეობას.
+
+
+მაგალითი:
+-->
+<div style="color: blue;">
+  <p>This text is blue.</p>
+  <p style="color: inherit;">This text inherits the blue color.</p>
+  <p style="color: initial;">This text uses the default color</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+  <style>
+    /* parent ფერის განსაზღვრა */
+    p {
+      color: blue;
+    }
+
+    /* b თეგზე ფერის გადაწერა */
+    b {
+      color: red;
+    }
+  </style>
+
+  <p>This is a paragraph with <b>bold text</b> inside it.</p>
+  <p>This is another paragraph with <b>another bold text</b>.</p>
+
+
+
+
+
+
+<!--პრივილეგიები თანმიმდევრობა მაღლიდან დაბლამდეა-->
+
+  <style>
+    p { color: black; } /* Elements */
+    .class { color: green; } /* Classes */
+    #id { color: blue; } /* IDs */
+  </style>
+  <p id="id" class="class" style="color: red;">this text will be red
+  </p>
+
+<!--აქ Inline სტილები ამარცხებს დანარჩენებს.
+

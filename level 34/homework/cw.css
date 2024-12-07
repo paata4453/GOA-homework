@@ -1,0 +1,23 @@
+div.left{
+    color: black;
+    position: absolute;
+    left: 1px;
+}
+div.right{
+    color: black;
+    position: absolute;
+    left: 1450px;
+    top: 10px;
+}
+div.bottom{
+    color: black;
+    position: absolute;
+    left: 0px;
+    bottom: 1px;
+}
+div.top{
+    color: black;
+    position: absolute;
+    left: 1450px;
+    bottom: 0=======px;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+.solid {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-align:center
+}
+
+
+.dashed {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-align:center;
+}
+
+
+.dotted {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-align:center
+}
+
+
+.double {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-align:center
+}
+
+
+.wavy {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-align:center
+}
+
+
+.none {
+    text-decoration: underline;
+    text-align:center
+}
+

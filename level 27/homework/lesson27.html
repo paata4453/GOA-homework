@@ -1,0 +1,74 @@
+<!-- Style Inheritance (სტილის მემკვიდრეობა) ნიშნავს, რომ ზოგიერთი CSS თვისებები ავტომატურად გადმოეცემა
+
+მაგალითად თუ გვაქვს მამის ელემენტი რომელსაც აქვს color: red და შვილი ელემენტი არ გააჩნია ფერი შვილი ავტომატურად მიიღებს მამის სტილს
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Inheritance Example</title>
+    <style>
+        p {
+            color: blue;
+        }
+
+        b {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <p>a <b>bold</b> p with some text.</p>
+
+</body>
+</html>
+
+
+<!--
+1. Inline Style
+2. ID
+3  Class
+4. Element
+-->
+
+<!--**კომენტარი CSS ფაილში:**
+
+
+/* ეს არის კომენტარი CSS ფაილში */
+body {
+    background-color: #ჯჰჯჰ; /* ფერი */
+    font-family: Arial, sans-serif; /* ფონტი */
+}
+-->
+<style>
+        div {
+            color: red; /* წითელი ფერი მიეცემა div-ის შიგნით არსებულ ყველა p-ს */
+        }
+    </style>
+</head>
+<body>
+
+    <p>p 1</p>
+    <p>p 2</p>
+    <p>p 3</p>
+    <div>
+        <p>p 4 in div</p>
+        <p>p 5 in div</p>
+        <p>p 6 in div</p>
+    </div>
+    <p>p 7</p>
+    <p>p 8</p>
+    <p>p 9</p>
+
+</body>
+</html>
+
+
+<!--
+div ელემენტზე დაწერილი სტილი(წითელი ფერი) დაიყვანება მხოლოდ იმ `p` ელემენტებზე, რომლებიც `div` შიგნით მდებარეობს (პარაგრაფები 4, 5, 6).
+ დანარჩენი `p` ელემენტების ფერი დარჩება ჩვეულებრივ სტილს, თუ ეს არ არის განსაზღვრული სხვა წესებით.
+
+

@@ -1,0 +1,28 @@
+p{
+    color:blue;
+    text-shadow: 20px -10px 10px rgb(0, 0, 0);
+    font-size: 150px;
+    
+
+}
+
+
+a:link{
+    color:blue;
+}
+
+
+a:hover{
+    color:red
+}
+a:active{
+    color:rgb(216, 216, 8)
+}
+a:visited{
+    color:green
+}
+
+
+button:hover{
+    color:blue
+}

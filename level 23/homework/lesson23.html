@@ -1,0 +1,138 @@
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+        th, td {
+            border: 2px solid black;
+            
+        }
+        th {
+            background-color: blue
+            
+        }
+        .nested-table th {
+            background-color: yellow
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Device</th>
+            <th>Brand</th>
+            <th>Specifications</th>
+        </tr>
+        <tr>
+            <td>phone</td>
+            <td>Apple</td>
+            <td>
+                <table class="nested-table">
+                    <tr>
+                        <th>Model</th>
+                        <th>Storage</th>
+                    </tr>
+                    <tr>
+                        <td>iPhone 12 Pro</td>
+                        <td>256GB</td>
+                    </tr>
+                    <tr>
+                        <td>iPhone SE</td>
+                        <td>128GB</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>HP</td>
+            <td>15.6" Display</td>
+        </tr>
+        <tr>
+            <td>Tablet</td>
+            <td>Samsung</td>
+            <td>10.5" Display</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+           
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>Level1</th>
+            <th>Level2</th>
+            <th>Level3</th>
+            <th>Info</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td rowspan="6">System</td>
+            <td rowspan="3">System Apps</td>
+            <td>SystemEnv</td>
+            <td>App Test</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+            <td>SystemEnv</td>
+            <td>App Memory</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+            <td>SystemEnv</td>
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+            <td rowspan="2">SystemEnv2</td>
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+            <td>System Memory</td>
+            <td>Memory Test</td>
+            <td>foo</td>
+        </tr>
+    </table>
+</body>
