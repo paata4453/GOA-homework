@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #d6e2f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 320px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 80%;
+    height: auto;
+}
+
+.card .qrcode {
+    background-color: #2c7dfa;
+    background-position:  center;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.card .qrcode img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+.card .content {
+    padding: 24px;
+}
+
+.card .content h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f3251;
+    margin-bottom: 16px;
+}
+
+.card .content p {
+    font-size: 14px;
+    color: #7b879d;
+    line-height: 1.5;
+}
