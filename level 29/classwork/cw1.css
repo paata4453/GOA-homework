@@ -1,0 +1,26 @@
+
+        .bold {
+            font-weight: bold;
+        }
+        .dim {
+            opacity: 0.5;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
+        .reverse {
+            color: white;
+            background-color: black;
+        }
+        .hidden {
+            visibility: hidden;
+        }
+        .reset {
+            all: unset;
+        }
