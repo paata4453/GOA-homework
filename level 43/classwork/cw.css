@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d1a2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #15263f;
+    border-radius: 12px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: grey;
+}
+
+h2{
+    color: white;
+}
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #9daecb;
+    margin-bottom: 20px;
+}
+
+.detali {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detali .price {
+    color: #00fff7;
+    font-weight: bold;
+}
+
+.detali .time-left {
+    font-size: 12px;
+    color: #9daecb;
+}
+
+.kai {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.kai img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.kai span {
+    font-size: 14px;
+}
+
+.kai span a {
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.kai span a:hover {
+    text-decoration: underline;
+}
+
+
+.iconist{
+    background-image: url("http://www.w3.org/2000/svg");
+    height: 10px;
+    width: 10px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generic Form</h1>
+    <form>
+        <label for="text1">Text Input 1:</label>
+        <input type="text" id="text1" name="text1" required>
+
+        <label for="text2">Text Input 2:</label>
+        <input type="text" id="text2" name="text2" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="dropdown">Choose an option:</label>
+        <select id="dropdown" name="dropdown" required>
+            <option value="">--Select an option--</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h1>Facebook Registration Form</h1>
+    <form>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required>
+
+        <label for="email_fb">Email:</label>
+        <input type="email" id="email_fb" name="email" required>
+
+        <label for="password_fb">New Password:</label>
+        <input type="password" id="password_fb" name="password" required>
+
+        <label for="dob_fb">Date of Birth:</label>
+        <input type="date" id="dob_fb" name="dob" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">--Select--</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="custom">Custom</option>
+        </select>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>

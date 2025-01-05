@@ -1,0 +1,96 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    height: 500px;
+    max-width: 1200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    color: #fa0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card h2 {
+    flex-direction: inherit;
+    margin-left: -120px;
+    color: #ffffff;
+    height: 12px;
+    font-size: 27px;
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 43px;
+    font-family: "Big Shoulders Display";
+    
+}
+
+.card p {
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-left: -40px;
+    text-align: left;
+}
+
+.card .learn-more {
+    background-color: #ffffff;
+    margin-left: -60px;
+    color: inherit;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card .icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.card.sedan {
+    color:#f28c28;
+    background-color: #f28c28;
+}
+
+.card.suv {
+    color: #01796f;
+    background-color: #01796f;
+}
+
+.card.luxury {
+    color: #004c4c;
+    background-color: #004c4c;
+}
+
+img{
+    margin-left: -150px;
+}

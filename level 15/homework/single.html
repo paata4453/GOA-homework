@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+        }
+        nav ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        section {
+            padding: 50px 20px;
+            margin: 50px auto;
+            max-width: 800px;
+        }
+        section:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">მთავარი</a></li>
+            <li><a href="#about">ჩვენ შესახებ</a></li>
+            <li><a href="#services">სერვისები</a></li>
+            <li><a href="#contact">კონტაქტი</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>მთავარი გვერდი</h1>
+        <p>ეს არის მთავარი სექცია.</p>
+    </section>
+
+    <section id="about">
+        <h1>ჩვენ შესახებ</h1>
+        <p>ინფორმაცია ჩვენს შესახებ.</p>
+    </section>
+
+    <section id="services">
+        <h1>სერვისები</h1>
+        <p>ჩვენი სერვისების აღწერა.</p>
+    </section>
+
+    <section id="contact">
+        <h1>კონტაქტი</h1>
+        <p>დაგვიკავშირდით:</p>
+        <p>Email: example@example.com</p>
+    </section>
+</body>
+</html>
+
+
+
+<!-- multi page გვჭირდება როდესაც ბევრ page იან საიტს ვაკეთებთ ხოლო single page როდესაც ერთ საიტში ვატევთ იმას რაც სხვა page ზე უნდა დაგვეწერა 
+  -->
+<!-- არ არის შესაფერისი ნავიგაციისთვის რადგან ის მოითხოვს რიგითობას 1, 2, 3 და ა.შ. რაც არ არის მნიშვნელოვანი ნავიგაციის ელემენტებისთვის. -->
