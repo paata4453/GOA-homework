@@ -1,0 +1,95 @@
+.container{
+    background-color: aqua;
+    position: absolute;
+    left: 530px;
+    top: 280px;
+    width: 500px;
+    font-size: 10px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+.q{
+    position: absolute;
+    bottom: 140px;
+    left: 220px;
+    font-size: 19px;
+}
+
+.w{
+    position: absolute;
+    bottom: 120px;
+    left: 220px;
+    font-size: 19px;
+
+}
+.e{
+    position: absolute;
+    bottom: 100px;
+    left: 220px;
+    font-size: 19px;
+}
+
+
+.r{
+    position: absolute;
+    bottom: 75px;
+    left: 220px;
+    font-size: 11px;
+    
+}
+
+.s{
+    position: absolute;
+    bottom: 60px;
+    left: 220px;
+    font-size: 11px;
+}
+
+
+.d{
+    position: absolute;
+    bottom: 45px;
+    left: 220px;
+    font-size: 11px;
+}
+
+.g{
+    position: absolute;
+    left: 220px;
+    bottom: 12px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.paata{
+    position: absolute;
+    left: 260px;
+    bottom: 1px;
+    width: 30px;
+    font-size: 11px;
+    height: 30px;
+}
+
+.pat{
+    position: absolute;
+    font-size: 11px;
+   
+    left: 301px;
+    bottom: 1px;
+    width: 30px;
+    height: 30px;
+}

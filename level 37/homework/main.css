@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');  /*font-family: 'Red Hat Display', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Primary Colors*/
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    /*Neutral Colors*/
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--Pale-blue);
+    background-position: top;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--Very-pale-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+    height: 567px;
+    width: 327px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.card #main-img {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    height: 160px;
+    width: 327px;
+}
+
+.card-wrapper {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.card-wrapper h1{
+    text-align: center;
+    margin-top: 20px;
+    padding: 1rem 0px;
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--Dark-blue);
+}
+
+.card-wrapper .description{
+    text-align: center;
+    padding: 0.5rem 2rem;
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+}
+
+.card-plans {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0px;
+    border-radius: 10px;
+    background-color: hsl(229, 73%, 96%);
+    padding: 1rem 1rem;
+}
+
+.card-plan-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: -40px;
+}
+
+.card-plan-desc h2{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--Dark-blue);
+ }
+ 
+ .card-plan-desc p{
+     font-weight: 500;
+     font-size: 14px;
+     color: var(--Desaturated-blue);
+  }
+ 
+  .card-plans a {
+     color: var(--Bright-blue);
+     font-size: 12px;
+     font-weight: 700;
+     transition: all 0.2s ease 0s;
+  }
+  .card-plans a:hover {
+      text-decoration: none;
+     color: var(--Desaturated-blue);
+}
+
+.card-plans img {
+    width: 40px;
+}
+
+.btn {
+    width: 279px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: var(--Bright-blue);
+    color: var(--Pale-blue);
+    transition: 0.1s linear 0s;
+}
+.primary:hover {
+    background-color: var(--Desaturated-blue);
+    color: white;
+}
+.secondary {
+    color: var(--Desaturated-blue);
+    transition: all 0.1s ease-in 0s;
+}
+.secondary:hover {
+    color: var(--Dark-blue);
+}
+
+@media screen and (min-width: 1440px){
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card {
+        background-color: var(--Very-pale-blue);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 15px;
+        height: 630px;
+        width: 408px;
+        box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    }
+    
+    .card #main-img{
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        width: 100%;
+        height: 200px;
+    }
+    
+    .card-wrapper {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 430px;
+    }
+    
+    .card-wrapper h1{
+        text-align: center;
+        margin-top: 20px;
+        padding: 1rem 0px;
+        font-weight: 900;
+        font-size: 24px;
+        color: var(--Dark-blue);
+    }
+    
+    .card-wrapper .description{
+        text-align: center;
+        padding: 0.5rem 2rem;
+        font-weight: 500;
+        color: var(--Desaturated-blue);
+    }
+    
+    .card-plans {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0;
+        border-radius: 10px;
+        background-color: hsl(229, 73%, 96%);
+        padding: 1rem 1rem;
+    }
+    
+    .card-plan-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: -70px;
+    }
+    
+    .card-plan-desc h2{
+       font-weight: 700;
+       font-size: 16px;
+       color: var(--Dark-blue);
+    }
+    
+    .card-plan-desc p{
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--Desaturated-blue);
+     }
+    
+     .card-plans a {
+        color: var(--Bright-blue);
+        font-size: 14px;
+        font-weight: 700;
+        transition: all 0.2s ease 0s;
+     }
+     .card-plans a:hover {
+         text-decoration: none;
+        color: var(--Desaturated-blue);
+     }
+    
+    .btn {
+        width: 320px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .primary {
+        background-color: var(--Bright-blue);
+        color: var(--Pale-blue);
+        transition: 0.1s linear 0s;
+    }
+    .primary:hover {
+        background-color: var(--Desaturated-blue);
+        box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+        color: white;
+    }
+    .secondary {
+        color: var(--Desaturated-blue);
+        transition: all 0.1s ease-in 0s;
+    }
+    .secondary:hover {
+        color: var(--Dark-blue);
+        
+    }
+    
+}
+
+
+
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
