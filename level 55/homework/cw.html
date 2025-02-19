@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height: 100vh;
+            background: #f4f4f4;
+        }
+
+        .color-change {
+            width: 100px;
+            height: 100px;
+            background: red;
+            animation: colorChange 3s linear infinite alternate;
+        }
+        @keyframes colorChange {
+            from { background: red; }
+            to { background: green; }
+        }
+
+        .move-right {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            position: relative;
+            animation: moveRight 2s linear infinite alternate;
+        }
+        @keyframes moveRight {
+            from { left: 0; }
+            to { left: 200px; }
+        }
+
+        .rotate-circle {
+            width: 200px;
+            height: 100px;
+            background: rgb(247, 0, 255);
+            border-radius: 80% 1% 80% 1%; 
+            animation: rotateCircle 1s linear infinite;
+        }
+        @keyframes rotateCircle {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .rotate-scale {
+            width: 100px;
+            height: 100px;
+            background: purple;
+            animation: rotateScale 4s linear infinite;
+        }
+        @keyframes rotateScale {
+            from { transform: rotate(0deg) scale(1); }
+            to { transform: rotate(360deg) scale(1.5); }
+        }
+    </style>
+</head>
+<body>
+    <div class="color-change"></div>
+    <div class="move-right"></div>
+    <div class="rotate-circle"></div>
+    <div class="rotate-scale"></div>
+</body>
+</html>

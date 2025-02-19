@@ -86,7 +86,7 @@ p {
   background: url("../images/bg-hero-desktop.svg") no-repeat center center /
     cover;
   height: 100vh;
-  background-color: #e0f7fa; /* Replace with the desired color value */
+  background-color: #e0f7fa; 
 }
 
 
@@ -152,7 +152,6 @@ p {
   }
 }
 
-/* last box */
 #last-card {
   background: #f4f4f4;
   margin-top: -2rem;
@@ -181,9 +180,8 @@ p {
   }
 }
 
-/* footer */
 #main-footer {
-  background: #008b8b; /* Replace with the desired color value */
+  background: #008b8b; 
   color: #fff;
 
   .footer-content {
