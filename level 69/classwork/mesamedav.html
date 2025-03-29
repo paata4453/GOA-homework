@@ -1,0 +1,19 @@
+<h1 id="time">0</h1>
+<button onclick="start()">Start</button>
+<button onclick="stop()">Stop</button>
+<button onclick="reset()">Reset</button>
+
+<script>
+  let time = 0;
+  let timer = null;
+
+  function start() {
+    if (timer === null) {
+      timer = setInterval(updateTime, 1000);
+    }
+  }
+  function updateTime() {
+    time++;
+    document.getElementById("time");
+  }
+</script>
